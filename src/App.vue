@@ -2,8 +2,9 @@
   <div id="app">
     <div class="container-fluid">
       <Header></Header>
-      <div class="row main clearfix">
+      <div class="row main">
       <Siderbar v-bind:info="info"></Siderbar>
+      <Content></Content>
       <Footer v-bind:info="info"></Footer>
       </div>
     </div>
@@ -15,6 +16,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Siderbar from '@/components/Siderbar';
+import Content from '@/components/Content';
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
 		Header,
     Footer,
     Siderbar,
+    Content,
   },
   data(){
         return{
@@ -77,8 +80,9 @@ body{
 .row{
   padding:5px;
 }
-.card-wrapper{
-  padding:5px;
+@media (max-width: 992px) {
+  .siderbar{
+    position: relative;
+  }
 }
-
 </style>

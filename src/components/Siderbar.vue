@@ -1,5 +1,5 @@
 <template>
-    <section class="col-md-3 card-wrapper siderbar">
+    <section class="col-md-3 card-wrapper siderbar position-fixed">
         <div class="card">
             <div class="card-top">
                 <div class="img">
@@ -62,7 +62,10 @@ export default {
 }
 </script>
 <style scoped>
-.card {
+.card-wrapper{
+    padding: 5px;
+}
+.card{
   background-color: #fff;
   padding: 10px;
   border-color: #ccc;
@@ -132,6 +135,11 @@ hr{
     .card-body{
         float:left;
         width:25%;
+    }
+}
+@media (max-width: 768px) {
+    .card-wrapper{
+        position: relative !important;
     }
 }
 </style>
