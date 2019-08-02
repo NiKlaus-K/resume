@@ -18,7 +18,7 @@
                                 <li class="item-item">大学期间学习计算机相关课程，有一定的的开发基础；</li>
                                 <li class="item-item">工作期间独立负责OA项目，经历从项目立项启动到项目上线验收全过程；</li>
                                 <li class="item-item">在项目执行过程中，熟练使用jQuery实现客户对流程的个性需求； </li>
-                                <li class="item-item">自学Html、Css、JavaScript、Vue等前端知识。</li>
+                                <li class="item-item">掌握Html、Css、JavaScript、Vue等前端知识。</li>
                             </ul>
                         </li>
                     </ul>

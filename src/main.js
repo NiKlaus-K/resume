@@ -12,7 +12,10 @@ import 'bootstrap/dist/js/bootstrap.min'
 import './assets/icon/css/all.min.css'
 import VueResource from 'vue-resource'
 import Utils from './utils/resume'
+import Vuex from 'vuex'
+import store from './store'
 
+Vue.use(Vuex)
 Vue.use(VueResource)
 Vue.config.productionTip = false
 
@@ -20,6 +23,7 @@ Vue.config.productionTip = false
 new Vue({
     el: '#app',
     router,
+    store,
     components: { App },
     template: '<App/>',
     data(){
@@ -31,4 +35,26 @@ new Vue({
     },
     methods: {
     },
+})
+new Vuex.Store({
+    
+})
+store.registerModule('vux', { // 名字自己定义
+    state: {
+      isLoading: false
+    },
+    mutations: {
+      updateLoadingStatus (state, payload) {
+        state.isLoading = payload.isLoading
+      }
+    }
+})
+
+router.beforeEach(function (to, from, next) {
+    store.commit('updateLoadingStatus', {isLoading: true})
+    next()
+  })
+  
+router.afterEach(function (to) {
+    store.commit('updateLoadingStatus', {isLoading: false})
 })
