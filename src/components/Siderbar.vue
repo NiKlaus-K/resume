@@ -52,7 +52,6 @@
 /* eslint-disable */
 export default {
   name: 'Siderbar',
-
   props: {
       info:{
           type: Object,

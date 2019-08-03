@@ -14,296 +14,154 @@
         "language": "中文  英语四级",
         "website": "https://github.com/noober-k",
         "summary": [
-            "个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等",
-            "喜欢关注 Web 前端相关新技术（React、Angular、Vue...），对于新技术有很强的学习兴趣",
-            "喜欢折腾造轮子，有一些简单的开源项目，不定时会更新 Github 小项目 5k+ Star（https://github.com/skyvow）",
-            "热爱前端这份工作，也热爱一切美好的事物，对于我来说，是一种责任、是一种快乐"
+            ""
         ],
         "profiles": [
             {
                 "network": "github",
-                "username": "skyvow",
-                "url": "https://github.com/skyvow"
+                "username": "Noober-K",
+                "url": "https://github.com/Noober-K"
             }
         ]
     },
-    "work": [
+    "works": [
         {
-            "company": "美味不用等（上海）信息科技股份有限公司",
-            "position": "Web 前端工程师",
+            "company": "上海泛微网络科技股份有限公司",
+            "position": "实施工程师",
             "website": "",
-            "startDate": "2017-06",
-            "endDate": "2019-01",
+            "startDate": "2018.03",
+            "endDate": "2019.07",
             "summary": "美味不用等（上海）信息科技股份有限公司",
             "highlights": [
-                "参与供应链产品原型需求分析及交互设计",
-                "供应链 SaaS 软件开发与维护",
-                "参与美味供应链（微信小程序）开发与维护",
-                "参与美味&招行项目对接"
-            ]
-        },
-        {
-            "company": "上海毅兆信息科技有限公司",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2016.04",
-            "endDate": "2017-05",
-            "summary": "上海毅兆信息科技有限公司",
-            "highlights": [
-                "根据产品需求文档，进行 Web 前端开发，前端主体框架选型，搭建基础框架",
-                "根据设计提供的设计稿编写静态页面",
-                "Javascript 数据处理、Ajax 交互开发、前端公共组件开发",
-                "负责配合后台开发人员，完成页面的交互及接口对接",
-                "负责团队的前端开发质量，提高效率，实施前后端分离",
-                "负责前端技术的完善，以用户为中心，不断尝试前端新技术，提升团队水平"
-            ]
-        },
-        {
-            "company": "上海连趣跑信息技术有限公司",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2015.10",
-            "endDate": "2016.04",
-            "summary": "上海连趣跑信息技术有限公司",
-            "highlights": [
-                "Photoshop 对设计图进行切片",
-                "根据设计提供的设计稿编写静态页面",
-                "负责配合后台开发人员，完成页面的交互及接口对接",
-                "负责网站功能模块及后台管理系统的设计"
-            ]
-        },
-        {
-            "company": "上海艺术伙伴有限公司",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2015.05",
-            "endDate": "2015.10",
-            "summary": "上海艺术伙伴有限公司",
-            "highlights": [
-                "Photoshop 对设计图进行切片",
-                "HTML5 + CSS3 编写网站页面，并保证浏览器的兼容性",
-                "负责配合后台开发人员，完成页面的交互及接口对接",
-                "负责电脑端及移动端 Web 项目的前端开发"
-            ]
-        }
-    ],
-    "project": [
-        {
-            "organization": "美味&招行项目对接",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2018.12",
-            "endDate": "2019.01",
-            "summary": "H5 开发",
-            "highlights": [
-                "美味&招行信用卡项目对接；",
-                "实现排队、预订、秒点、秒付等功能；",
-                "实现招行信用卡中心内扫码订单，支付等功能。"
-            ]
-        },
-        {
-            "organization": "友车友家小程序开发",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2018.10",
-            "endDate": "2018.12",
-            "summary": "微信小程序",
-            "highlights": [
-                "友车友家微信小程序开发，主要为新车、二手车平台；",
-                "包括选择车辆预约门店，预约看车，在线咨询等功能；",
-                "我在此项目中担任 Web 前端工程师，负责参与项目的前端开发及维护；",
-                "实现了选车、特惠、门店、我的等主要功能；",
-                "实现了海报分享、抽奖转盘等推销功能。"
-            ]
-        },
-        {
-            "organization": "供应链 SaaS 软件",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2017.06",
-            "endDate": "2018.12",
-            "summary": "React + React-router + Redux + Wepack + ES6",
-            "highlights": [
-                "我就职于美味供应链事业部，开发团队一共十多人，协同开发一款供应链 SaaS 软件，主要功能包括门店管理、集采中心管理等。",
-                "我在此项目中担任 Web 前端工程师，负责参与项目的前端开发及维护，开发完成后，到自测阶段，再到发布正式环境。",
-                "项目基于 React + React-router + Redux + Wepack + ES6 前端框架配合 NodeJS 开发环境开发，采用 Webpack 作为自动化构建工具，实时编译代码，热更新；由于旧版本线上编译发布时间较长（约20分钟），通过 Wepack 开启多线程、按需加载等功能优化使之编译速度到达约 12 分钟。",
-                "项目正式上线后，Web 前端性能及用户体验表现良好，为商家提供了便利。"
-            ]
-        },
-        {
-            "organization": "美味供应链（微信小程序）",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2018.05",
-            "endDate": "2018.06",
-            "summary": "微信小程序",
-            "highlights": [
-                "2018年5月到2018年6月负责开发的一款美味供应链（微信小程序）的项目，主要功能包括下单，消息通知、查看报表等功能。",
-                "由于是新需求新项目，只有一个人参与前端开发，前期调研了小程序与公众号通信等相关资料，以及参与项目的需求评审，到确定设计稿阶段。",
-                "根据 UI 提供的设计稿，百分百还原页面及其交互效果，并且通过小程序 rpx 设计方案兼容多尺寸移动设备。",
-                "项目经验收，无重大漏洞，正式上线后，用户体验良好，功能完善。"
-            ]
-        },
-        {
-            "organization": "颜值评分",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2017.04",
-            "endDate": "2017.05",
-            "summary": "微信小程序",
-            "highlights": [
-                "2017年4月到2017年5月独立负责开发的一款颜值评分项目，包括颜值 PK、夫妻相、颜值榜等功能；",
-                "由于是个人项目，一个人担任多项角色负责参与产品需求、页面交互设计过程、前后端的开发、Ubuntu 16.04 服务器部署等工作；",
-                "前端采用微信小程序开发，在此封装了高效的可复用的组件模块，通过组件化开发极大的提升了开发效率；后端采用 NodeJS 开发，基于 Express 框架提供 RESTful API；",
-                "项目中采用 Face++ 人脸识别服务技术，检测并定位图片中的人脸，返回人脸坐标，然后通过面部黄金比例计算出颜值评分；",
-                "项目上线后用户体验流畅，用户数量不断增加，至此已达 5 万多。"
-            ]
-        },
-        {
-            "organization": "上海中科院后台管理",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2017.01",
-            "endDate": "2017.04",
-            "summary": "React + React-router + Redux + Wepack + ES6 + PostCSS",
-            "highlights": [
-                "2017年1月到2017年4月我们四人小组负责开发的一款 CMS 内容管理系统项目包括内容管理、模板管理、发布管理，为上海中科院提供可视化后台管理功能；",
-                "作为团队中的核心程序员，我负责项目的调研，根据产品需求文档进行需求拆分，技术选型与搭建框架等开发；",
-                "项目基于 React + React-router + Redux + Wepack + ES6 + PostCSS 前端框架配合 NodeJS 开发环境开发，采用 Webpack 作为自动化构建工具，实时编译代码，热更新；",
-                "项目上线后，前端性能表现良好，测试结果也没有任何异常，客户也很满意。"
-            ]
-        },
-        {
-            "organization": "上海高校后勤e站",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2016.10",
-            "endDate": "2016.12",
-            "summary": "AngularJS + Wepack + ES6 + PostCSS",
-            "highlights": [
-                "2016年10月到2016年12月我们四人小组负责开发一款会议管理系统的项目，包括会议预订、信息发布、微信签到、扫码签到等功能；",
-                "作为团队中的核心程序员，我负责项目的调研，根据产品需求文档进行需求拆分，技术选型与搭建框架等开发；",
-                "项目基于 AngularJS + Wepack + ES6 + PostCSS 前端框架配合 NodeJS 开发环境开发，采用 Webpack 作为自动化构建工具，实时编译代码；",
-                "项目上线后，已多次试点于中小型重要会议中，参会人员能随时轻松查看活动信息、下载资料，更为便捷。"
-            ]
-        },
-        {
-            "organization": "智慧微校园",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2016.04",
-            "endDate": "2016.10",
-            "summary": "AngularJS + Wepack + ES6 + PostCSS",
-            "highlights": [
-                "2016年4月到2016年10月我们四人小组负责开发一款智慧微校园的项目，包括班级管理、成绩管理、信息发布，报修管理等功能，将教学、科研、管理和校园生活进行充分融合；",
-                "作为团队中的核心程序员，我负责项目的调研，根据产品需求文档进行需求拆分，技术选型与搭建框架等开发；",
-                "项目基于 AngularJS + Wepack + ES6 + PostCSS 前端框架配合 NodeJS 开发环境开发，采用 Webpack 作为自动化构建工具，实时编译代码；",
-                "项目正式在龚路小学上线之后，提升了学校日常管理效率，课堂效率和质量直线走高，受到教师与家长的广泛好评。"
-            ]
-        },
-        {
-            "organization": "比赛助手后台开发 前端重构",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2016.02",
-            "endDate": "2016.03",
-            "summary": "AngularJS + Wepack + ES6 + PostCSS",
-            "highlights": [
-                "项目基于 AngularJS + Wepack + ES6 + PostCSS 重构项目，克服了多人协作开发的问题，使得研发成本大大降低、快速上线。"
-            ]
-        },
-        {
-            "organization": "比赛助手后台开发",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2015.12",
-            "endDate": "2016.02",
-            "summary": "AngularJS + Wepack + ES6 + PostCSS",
-            "highlights": [
-                "比赛助手后台采用 AngularJS + Wepack + ES6 + PostCSS 为主体框架开发，主要完成登陆注册模块、比赛赛事创建功能及相关赛事的辅助模块：赛事管理、赛事查询、选手管理、成绩管理、证书编辑",
-                "赛事管理主要包括比赛赛事的创建至比赛结束后成绩的及时发布，以及赛后成绩查询",
-                "选手管理主要包括选手信息列表查询及导入、编辑、新增等操作"
-            ]
-        },
-        {
-            "organization": "比赛成绩查询开发",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2015.12",
-            "endDate": "2016.02",
-            "summary": "AngularJS + Gulp + Sass",
-            "highlights": [
-                "前端基础框架搭建及简单界面设计，基于 AngularJS + Gulp + Sass 开发",
-                "比赛成绩查询功能模块的实现（赛事列表、赛事科目、团队成绩、个人成绩等）",
-                "根据特殊的比赛定制不同的查询页面"
-            ]
-        },
-        {
-            "organization": "跑团助手2.0开发",
-            "position": "Web 前端工程师",
-            "website": "",
-            "startDate": "2015.12",
-            "endDate": "2016.02",
-            "summary": "AngularJS + Gulp + Sass",
-            "highlights": [
-                "项目基于 AngularJS + Gulp + Sass 开发",
-                "跑团助手2.0开发，服务于跑友参加各种约跑活动提供便利",
-                "微信端授权确认身份后才登录",
-                "跑团团长可以发布活动、编辑活动、取消活动",
-                "跑友报名活动、交报名费、签到活动、分享活动"
+                "沟通客户需求；",
+                "确认功能需求点，整理需求文档；",
+                "系统基本功能搭建，配置个性化功能点(会用到jQuery)；",
+                "系统功能测试、优化；",
+                "培训用户，推进上线；",
+                "上线问题处理，项目结案。"
             ]
         }
     ],
     "education": [
         {
-            "institution": "上海建桥学院",
-            "area": "计算机科学与技术",
+            "school": "河海大学",
+            "major": "信息管理与信息系统",
             "studyType": "本科",
-            "startDate": "2011-09",
-            "endDate": "2015-06",
-            "gpa": "4.0",
+            "startDate": "2013.09",
+            "endDate": "2017.06",
             "courses": [
-                "数据结构",
-                "操作系统",
-                "编译原理"
+                "Web程序设计",
+                "Java程序设计",
+                "数据结构"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name" : "市北建投协同办公平台",
+            "startDate": "2019.03",
+            "endDate": "2019.06",
+            "summary": "协同办公系统，包含工作流程、表单建模、移动建模、人事系统集成等功能。",
+            "website":"",
+            "tasks":[
+                "负责需求调研、流程及模块搭建、人事系统集成等工作；",
+                "流程搭建过程中通过添加JS代码实现客户个性化需求，主要是对流程表单填写内容的控制：比如加班申请限制每月仅能提交一定的小时数；",
+                "通过OA系统自带的“移动建模”功能，搭建移动端应用——“我有话说”，用户可通过该功能提交对公司的意见建议，同时实现允许匿名的功能（仅限显示界面）。"
+            ]
+        },{
+            "name" : "海洋研究所系统办公平台",
+            "startDate": "2019.05",
+            "endDate": "2019.05",
+            "summary": "通过HTML、CSS、JS设计“办事大厅”页面。项目链接:",
+            "iswebsite":"true",
+            "website":"https://noober-k.github.io/Ehall/",
+            "tasks":[
+                "设置弹性布局；",
+                "通过JS实现查询功能：输入关键字查询时对应内容高亮显示。",
+                "通过OA系统自带的“移动建模”功能，搭建移动端应用——“我有话说”，用户可通过该功能提交对公司的意见建议，同时实现允许匿名的功能（仅限显示界面）。"
+            ]
+        },{
+            "name" : "青岛贝特佳生物科技有限公司协同办公平台",
+            "startDate": "2018.10",
+            "endDate": "2018.12",
+            "summary": "协同办公系统，包含工作流程、表单建模。其中通过表单建模及流程基本功能，搭建门店管理模块，实现门店巡店、销售数据的录入以及统计等功能",
+            "website":"",
+            "tasks":[
+                "负责部署OA系统、完成需求调研、工作流程搭建、项目上线问题处理、项目验收全过程；",
+                "其中在工作流程搭建过程中，客户部分个性化需求系统原有功能无法实现，通过利用OA系统的“代码块”功能，添加自定义JavaScript代码实现日期计算、表单提交验证以及表单内容的显示隐藏控制等功能（jQuery）：\n（1）通过js设置提交验证条件；\n（2）获取用户填写时间，计算天数；\n（3）根据用户选择不同的内容，显示/隐藏流程表单内容。"
+            ]
+        }
+    ],
+    "productions":[
+        {
+            "name":"个人简历",
+            "href":"https://github.com/Noober-K/resume",
+            "describe":"基于Vue的个人简历，利用Bootstrap4完成页面布局（链接为项目源码地址，预览地址即当前页面）",
+            "tag":[
+                "HTML","CSS3","Vue","Bootstrap4"
+            ]
+        },{
+            "name":"Ehall",
+            "href":"https://noober-k.github.io/Ehall/",
+            "describe":"基于felx布局设置的“办事大厅”页面，并实现搜索功能",
+            "tag":[
+                "HTML","Flex布局","jQuery"
+            ]
+        },{
+            "name":"iPhoneX-Html",
+            "href":"https://github.com/Noober-K/iphonex-html",
+            "describe":"利用html和css3完成iphone手机外观的绘制",
+            "tag":[
+                "HTML","CSS3"
+            ]
+        },{
+            "name":"简易聊天室",
+            "href":"https://github.com/Noober-K/Chat",
+            "describe":"基于Nodejs的简易聊天室",
+            "tag":[
+                "HTML","Node.js"
+            ]
+        },{
+            "name":"员工评价系统（未完）",
+            "href":"https://github.com/Noober-K/support",
+            "describe":"微信小程序：利用微信提供的云开发后台完成前后端的开发，实现评价、回复功能。",
+            "tag":[
+                "微信小程序","前后端分离"
             ]
         }
     ],
     "skills": [
         {
             "name": "前端",
-            "level": "master",
             "keywords": [
                 "HTML",
                 "CSS",
                 "Javascript",
-                "Sass",
-                "PostCSS",
-                "Gulp",
-                "Webpack",
-                "Angular",
-                "React"
+                "jQuery",
+                "Vue",
+                "Bootstrap",
+                "Font Awesome"
             ]
         },
         {
             "name": "后端",
-            "level": "master",
             "keywords": [
-                "NodeJS",
-                "Python"
+                "Node.js",
+                "Java"
+            ]
+        },
+        {
+            "name": "工具",
+            "keywords": [
+                "Git",
+                "Vscode",
+                "Photoshop",
+                "Axure"
             ]
         }
     ],
     "languages": [
-        {
-            "language": "中文",
-            "fluency": "母语"
-        }
-    ],
-    "references": [
-        {
-            "name": "奥勃鲁切夫",
-            "reference": "人能为自己心爱的工作贡献出全部力量、全部精力、全部知识，那么这项工作将完成得出色，收效也更大。"
-        }
+        "中文",
+        "英语四级"
     ]
 }

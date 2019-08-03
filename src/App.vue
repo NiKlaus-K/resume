@@ -4,7 +4,14 @@
       <Header></Header>
       <div class="row main">
       <Siderbar v-bind:info="info"></Siderbar>
-      <Content></Content>
+      <Content v-bind:contents="{
+          works:works,
+          education:education,
+          projects:projects,
+          productions:productions,
+          skills:skills,
+          languages:languages
+      }"></Content>
       <Footer v-bind:info="info"></Footer>
       </div>
     </div>
@@ -24,17 +31,17 @@ export default {
 		Header,
     Footer,
     Siderbar,
-    Content,
+    Content
   },
   data(){
         return{
             info: {},
-            work:[],
+            works:[],
             education:{},
-            project:[],
+            projects:[],
+            productions:[],
             skills:[],
-            languages:{},
-            references:{},
+            languages:{}
         }
   },
     mounted() {
@@ -47,12 +54,12 @@ export default {
             const url = '../static/resume.json'
             this.$http.get(url).then((res)=>{
                 this.info = res.data.info;
-                this.work = res.data.work;
+                this.works = res.data.works;
                 this.education = res.data.education;
-                this.project = res.data.project;
+                this.projects = res.data.projects;
                 this.skills =res.data.skills;
                 this.languages = res.data.languages;
-                this.references = res.data.references;
+                this.productions = res.data.productions;
                 // console.log(typeof(this.work))
             })
         }

@@ -36,25 +36,3 @@ new Vue({
     methods: {
     },
 })
-new Vuex.Store({
-    
-})
-store.registerModule('vux', { // 名字自己定义
-    state: {
-      isLoading: false
-    },
-    mutations: {
-      updateLoadingStatus (state, payload) {
-        state.isLoading = payload.isLoading
-      }
-    }
-})
-
-router.beforeEach(function (to, from, next) {
-    store.commit('updateLoadingStatus', {isLoading: true})
-    next()
-  })
-  
-router.afterEach(function (to) {
-    store.commit('updateLoadingStatus', {isLoading: false})
-})
